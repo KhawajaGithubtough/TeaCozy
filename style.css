@@ -19,7 +19,6 @@ h2,h3,h4 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 header {
@@ -67,9 +66,10 @@ nav span {
 /*Store*/
 
 #store {
-
-    height: 700px;
-    width: 1000px;
+    /* CHANGED TO MAX_WIDTH TO ALLOW FLEX WRAP */
+    max-width: 1000px;
+    /* CHANGED HEIGHT TO AUTO */
+    height: auto;
     margin: auto;
     margin-top: 70px;
 
